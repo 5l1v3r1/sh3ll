@@ -25,7 +25,7 @@ try:
   / ___// / / /__  // /   / /   %sCoded by D4RKSH4DOWS%s
   \__ \/ /_/ / /_ </ /   / /    %sFB gg.gg/AnonRoz-Team%s
  ___/ / __  /___/ / /___/ /___  %sIG @anonroz_team%s
-/____/_/ /_//____/_____/_____/  SCANNER
+/____/_/ /_//____/_____/_____/  CHECKER
 '''%(C1,W0,C1,W0,C1,W0,C1)
 	ThreadPool(30).map(scan,open(sys.argv[1]).read().splitlines())
 	print '\n%s[ %sDONE %s] Saved in live_shell.txt'%(W0,G0,W0)
